@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{int c,y=10,p=20;
+
+   printf("nos of y before=%d\n",y);
+   printf("nos of p before=%d\n",p);
+  c=++y + y++ + --y + ++p - --p - --p;
+   printf("value of calculation:%d\n",c);
+   printf("nos of y after =%d\n",y );
+   printf("nos of p after=%d\n",p);
+   printf("Maitrik 23ce066");
+
+return 0;
+}
