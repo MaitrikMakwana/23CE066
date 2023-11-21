@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{  int yellow=10,C;
+
+ printf("1.count before execution:%d\n",yellow);
+ yellow=++yellow;
+ yellow=--yellow;
+ yellow=yellow++;
+ yellow=yellow--;
+ printf("2.count after execution:%d\n",yellow);
+ printf("Maitrik 23ce066");  
+
+return 0;
+}
