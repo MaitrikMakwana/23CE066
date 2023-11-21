@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
+#define PI 3.14
+int main()
+{
+float T;
+ float l,g;
+ printf("enter the value of g: ");
+ scanf("%f",&g);
+ printf("enter the length: ");
+ scanf("%f",&l);
+ T=2*(PI)*sqrt(l/g);
+ printf("the value of T is:%.2f\n",T);
+ printf("Maitrik-23ce066");
+return 0;
+}
